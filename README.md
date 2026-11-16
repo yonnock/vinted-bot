@@ -14,7 +14,7 @@ Arbitrage classifier for Vinted.de. Scrapes catalog listings, runs OCR on item p
 
 For users who do not want to touch the command line.
 
-1. Download [`vinted-bot.command`](https://github.com/yungweng/vinted-bot/raw/main/vinted-bot.command).
+1. Download [`vinted-bot.command`](https://github.com/yonnock/vinted-bot/raw/main/vinted-bot.command).
 2. Double-click `vinted-bot.command`. First launch installs uv and dependencies (a few minutes, mostly PyTorch). Subsequent launches start in seconds.
 3. The dashboard opens in your browser at `http://127.0.0.1:<port>`.
 4. Open **Einstellungen** and paste your OpenRouter API key. Save. Done.
@@ -25,7 +25,7 @@ Data lives in `~/Library/Application Support/vinted-bot/`.
 ## Run it (developer)
 
 ```sh
-git clone https://github.com/yungweng/vinted-bot
+git clone https://github.com/yonnock/vinted-bot
 cd vinted-bot
 uv sync
 uv run vinted-bot
