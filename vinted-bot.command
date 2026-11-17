@@ -22,5 +22,5 @@ fi
 
 exec uvx \
     --refresh-package vinted-bot \
-    --from "git+https://github.com/yungweng/vinted-bot@main" \
+    --from "git+https://github.com/yonnock/vinted-bot@main" \
     vinted-bot
